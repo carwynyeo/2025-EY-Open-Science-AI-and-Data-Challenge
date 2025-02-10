@@ -37,3 +37,10 @@ Contributors: Contributors: New York State Mesonet
 Data Host: https://nysmesonet.org/
 Terms of Use: https://nysmesonet.org/about/data
 License: https://nysmesonet.org/documents/NYS_Mesonet_Data_Access_Policy.pdf
+
+
+
+
+Note: Participants are strictly prohibited from using Longitude and Latitude values as features in building their machine learning models. Submissions that employ longitude and latitude values as model features will be disqualified. These values should only be utilized for understanding the attributes and characteristics of the locations.
+
+Incorporating latitude and longitude data in their raw forms or through any form of manipulation—including multiplication, embedding, or conversion to polar coordinates—as predictive features in your model is strictly prohibited, as it can compromise the adaptability of your model across diverse scenarios. This prohibition extends to calculating the distance from a reference point and using it as a feature, which is essentially a transformation of the original geographical coordinates into a new feature form. Submissions that include these types of features will be considered non-compliant and will be disqualified.
